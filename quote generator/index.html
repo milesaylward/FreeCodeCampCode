@@ -1,0 +1,41 @@
+<!--- 
+Random Quote/color generator
+Free Code camp challenge
+completed 7pm October 10th
+By Miles Aylward
+-->
+
+
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="random.js"></script>
+<link rel="stylesheet" type="text/css" href="randStyle.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+</head>
+<script type="text/javascript">
+  var elem = document.getElementById("primary tweet");
+  elem.setAttribute("data-text", .quote);
+</script>
+
+<body id="body">
+  <div class="container">
+    <div class="header">
+      <h1 class="text-center headline" id="headline">Random Quote Machine</h1>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary col-xs-2 col-xs-offset-4 quoteGen">Get new quote!</button>
+      <a target="_blank" href="https://twitter.com/intent/tweet?text=&.QUOTE" class="btn btn-primary tweet col-xs-2" data-text="quote"> <i class="fa fa-twitter"></i> Tweet this </a>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 quoteBox">
+        <h2 class="quote" id="quotetext">Random Quote Goes Here!</h1>
+        <h5 class="author" id ="author">Who said what</h5>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
